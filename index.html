@@ -11,10 +11,50 @@
 
 	<body>
 
-		<p>Hello, world!</p>
+		<table>
+
+			<tr>
+				<th>()</th>
+				<th>Precedance</th>
+			</tr>
+
+			<tr>
+				<th>~</th>
+				<th>Negation</th>
+			</tr>
+
+			<tr>
+				<th>/\</th>
+				<th>Conjunction</th>
+			</tr>
+
+			<tr>
+				<th>\/</th>
+				<th>Inclusive disjunction</th>
+			</tr>
+
+			<tr>
+				<th>+</th>
+				<th>Exclusive disjunction</th>
+			</tr>
+
+			<tr>
+				<th>=&gt;</th>
+				<th>Implication</th>
+			</tr>
+
+			<tr>
+				<th>&lt;=&gt;</th>
+				<th>Equivalence</th>
+			</tr>
+
+		</table>
 
 		<input id="expression" type="text">
 		<input id="calculate" type="button" value="Calculate!">
+
+		<div id="output">
+		</div>
 
 	</body>
 
